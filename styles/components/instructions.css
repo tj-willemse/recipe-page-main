@@ -1,0 +1,45 @@
+.instructions-box {
+  padding: 20px;
+  margin-top: -40px;
+}
+
+.instruction-title {
+  font-family: var(--font-primary);
+  color: var(--clr-brown800);
+}
+.instructions-list {
+  margin-bottom: 10px;
+  margin-left: 20px;
+  max-width: 59ch;
+  padding-left: 10px;
+  font-family: var(--font-secondary);
+}
+ol li::marker {
+  font-weight: bold;
+  color: var(--clr-brown800);
+  font-size: var(--size-base);
+  font-family: var(--font-secondary);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* Sm */
+/*@media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {}  */
+
+/* Lg */
+@media (min-width: 1024px) {
+  .instructions-box {
+    padding: 0px;
+    margin-top: 20px;
+  }
+}
+
+/* xL */
+/* @media (min-width: 1280px) {}  */
+
+/* 2xL */
+/* @media (min-width: 1536px) {} */
